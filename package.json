@@ -1,0 +1,20 @@
+{
+  "name": "text-to-word",
+  "version": "1.0.0",
+  "description": "Fullstack Vite + React + Express App",
+  "scripts": {
+    "start": "npm run start-backend",
+    "dev": "concurrently \"npm run dev-backend\" \"npm run dev-frontend\"",
+    "dev-frontend": "cd frontend && npm run dev",
+    "dev-backend": "cd backend && node server.js",
+    "build": "cd frontend && npm run build",
+    "preview": "cd frontend && npm run preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
