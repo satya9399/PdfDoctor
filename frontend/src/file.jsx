@@ -2,9 +2,7 @@ import React from 'react';
 import { saveAs } from 'file-saver';
 import { Document, Packer, Paragraph, TextRun } from 'docx';
 import * as pdfjsLib from 'pdfjs-dist/build/pdf';
-import pdfWorker from 'pdfjs-dist/build/pdf.worker.entry';
-
-pdfjsLib.GlobalWorkerOptions.workerSrc = pdfWorker;
+import pdfWorkerUrl from 'pdfjs-dist/build/pdf.worker.mjs?url';
 
 const File = () => {
   const handleFileImport = async (event) => {

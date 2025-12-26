@@ -13,11 +13,15 @@
     "@tailwindcss/vite": "^4.1.10",
     "docx": "^9.5.1",
     "file-saver": "^2.0.5",
-    "pdfjs-dist": "^5.3.31",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^3.0.4",
+    "mammoth": "^1.11.0",
+    "pdfjs-dist": "^5.4.449",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-router-dom": "^7.6.2",
-    "tailwindcss": "^4.1.10"
+    "tailwindcss": "^4.1.10",
+    "xlsx": "^0.18.5"
   },
   "devDependencies": {
     "@eslint/js": "^9.25.0",
