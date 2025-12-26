@@ -54,6 +54,7 @@
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/docconvert-pro.git
+git clone https://github.com/satya9399/PdfDoctor.git
 
-cd docconvert-pro
+cd frontend
+
